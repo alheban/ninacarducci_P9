@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
 		content="Plongez dans l'univers captivant de Nica Carducci, photographe passionné. Explorez ses clichés empreints d'émotion, de lumière et de tendresse. Laissez-vous transporter par sa capacité à figer les instants magiques et à les rendre éternels. Découvrez un voyage visuel où chaque photo raconte une histoire, où chaque regard suscite une émotion. Bienvenue dans l'art de capturer l'instant présent.">
-	<title>Nica Carducci - Photographe</title>
+		<title>Nica Carducci - Photographe</title>
 	<meta name="robots" content="index,follow">
 
 
@@ -18,25 +18,25 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"async></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js" async></script>
-	<script src="./assets/scripts.js" async></script>
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"async></script>
+	<script src="./assets/maugallery.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
 </head>
 
 <body>
 	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
-		<nav class="nav">
+		<nav class="nav" aria-label="Navigation principale">
 			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about" aria-label="Lien vers la section À propos">À propos</a></li>
+				<li><a href="#gallery" aria-label="Lien vers la section Galerie">Galerie</a></li>
+				<li><a href="#services" aria-label="Lien vers la section Services">Service</a></li>
+				<li><a href="#contact" aria-label="Lien vers la section Contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a></li>
+						target="_blank"><img src="assets/images/instagram.png" width="20"
+						height="20" alt="instagram" aria-label="Lien vers instagram"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -56,7 +56,7 @@
 						<img 
 						
 						src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" 
-						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-mobile320.jpg 412w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg 1920w"
+						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-mobile320.webp 412w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1920w"
 						sizes="100vw" 
 
 						class="d-block w-100" alt="photo-ryoji-iwata">
@@ -64,7 +64,7 @@
 					<div class="carousel-item">
 						<img 
 						src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg"
-						srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-mobile320.jpg 412w, ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg 1920w"
+						srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-mobile320.webp 412w, ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp 1920w"
 						sizes="100vw" 
 
 						class="d-block w-100"
@@ -73,7 +73,7 @@
 					<div class="carousel-item">
 						<img 
 						src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" 
-						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-mobile320.jpg 412w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg 1920w"
+						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-mobile320.webp 412w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1920w"
 						sizes="100vw" 
 						
 						class="d-block w-100"
@@ -116,51 +116,50 @@
 		<section id="gallery">
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
-				<div class="gallery" style="display: none">
+				<div class="gallery" style="display: none" aria-label="Différentes photos du travail de nina carducci">
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-						srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-mobile320.webp 425w, ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp 1224w"
+						srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-mobile320.webp 425w, ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp 440w"
 						sizes="100vw" 
 						alt="Concert aaron-paul">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-mobile320.webp 320w, ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp 425w"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-mobile320.webp 425w, ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp 440w"
 						sizes="100vw" 
 						alt="Entreprises ali-morshedlou">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-mobile320.webp 320w, ./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp 425w"
-						sizes="50vw" 
+						
 						alt="Entreprises jason-goodman">
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-mobile320.webp 320w, ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-mobile320.webp 425w, ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp 440w"
+						sizes="100vw" 
 						alt="Mariages hannah-busing">
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-mobile320.webp 320w, ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-mobile320.webp 425w, ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp 440w"
+						sizes="100vw" 
 						alt="Portrait ade-tunji">
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
-						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-mobile320.webp 320w, ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-mobile320.webp 425w, ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp 440w"
+						sizes="100vw" 
 						alt="Mariages jakob-owens">
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-mobile320.webp 320w, ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-mobile320.webp 425w, ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp 440w"
+						sizes="100vw"  
 						alt="Portrait nino-van-prattenburg">
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
-						srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-mobile320.webp 320w, ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-mobile320.webp 425w, ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp 440w"
+						sizes="100vw" 
 						alt="Concert austin-neill">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-mobile320.webp 320w, ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 425w"
-						sizes="50vw" 
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-mobile320.webp 425w, ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 440w"
+						sizes="100vw" 
 						alt="Entreprises mateus-campos-felipe">
 				</div>
 			</div>
