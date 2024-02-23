@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #8e8744;
+	background-color: #746e37;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -240,7 +240,7 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #827b42;
+	background-color: #BEB45A;
 	padding: .5em 1em
 }
 
